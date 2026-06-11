@@ -21,6 +21,7 @@ def main():
     I = 10/2500
     showV = False
 
+    # Set up x axis in terms of time constant
     x = np.linspace(0,tc*num_tc,V_battery*10)
     x_ticks = np.zeros(num_tc,dtype=float)
     x_labels = []
